@@ -1,0 +1,48 @@
+.mainImage{
+    width: 100vw;
+    height: 99vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.homePage p{
+    font-size: 3.5rem;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.homePage p span{
+    font-size: 2.5rem;
+    font-weight: 550;
+    text-align: center;
+}
+
+.content{
+    position: absolute;
+    top: 48%;
+    left:60%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homePage button{
+    background-color: #5C469C;
+    border: 1px solid white;
+    padding: 0.75rem 1.15rem;
+    border-radius: 2rem;
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: all 0.5s ease-out;
+}
+
+.homePage button:hover{
+    border: 1px solid #5C469C;
+    background-color: white;
+    color: #5C469C;
+}

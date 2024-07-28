@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 8px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: rgb(246, 246, 246);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    box-shadow: 1px 1px 5px 1px rgb(170, 170, 170);
+}
+
+.navbar a img{
+    width: 50%;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    margin-right: 0.5rem;
+    align-items: center;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    margin: 0 1.25rem;
+    color: rgb(26, 26, 26);
+}
+
+.navbar ul li a:hover{
+    color: black;
+    border-bottom: 1px solid black;
+}

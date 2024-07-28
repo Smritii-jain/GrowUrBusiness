@@ -1,0 +1,81 @@
+.mainBox{
+    width: 100vw;
+    height: 105vh;
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: white;
+    height: 75vh;
+    width: 60vw;
+    box-shadow: 1px 1px 10px 2px rgb(218, 218, 218);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box img{
+    width: 50%;
+}
+
+.box .inBox{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .inBox h1{
+    font-size: 3rem;
+    margin: 0.8rem 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.box .inBox input{
+    display: block;
+    width: 50%;
+    font-size: 1.6rem;
+    border-top: 0;
+    border-left: 0 ;
+    border-right: 0;
+    border-bottom: 1px solid #000;
+    outline: none;
+    padding: 0.5rem 0.75rem;
+    margin: 0.75rem 0;
+    text-align: center;
+}
+
+.box .inBox button{
+    background-color: #29aadd;
+    border: 1px solid white;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1.6rem;
+    border-radius: 0.8rem;
+    margin: 0.75rem 0;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.box .inBox button:hover{
+    background-color: white;
+    color: #29aadd;
+    border: 1px solid #29aadd;
+}
+
+.box .inBox a{
+    color: black;
+    margin-top: 0.75rem ;
+    font-size: 1.25rem;
+    text-decoration: underline;
+    transition: all 0.25s ease-in-out;
+}
+.box .inBox a:hover{
+    color: rgb(29, 29, 29);
+}
